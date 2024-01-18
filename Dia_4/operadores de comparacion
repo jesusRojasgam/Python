@@ -1,0 +1,10 @@
+suma_cuadrados = list(range(1,15))
+cuadrado= 0
+suma_cuadrados=0
+for numero in suma_cuadrados:
+    cuadrado = numero ** 2
+    print(cuadrado)
+
+
+suma_cuadrados += cuadrado
+print(suma_cuadrados)
